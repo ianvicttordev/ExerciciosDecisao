@@ -12,8 +12,8 @@
 #        Salário Liquido                 : R$  935,00
 
 
-valor_hora = float(input("Quanto você ganha por hora? "))
-horas_mes = int(input("Quantas horas você trabalha no mês? "))
+valor_hora = float(input("Quanto você ganha por hora?--> "))
+horas_mes = int(input("Quantas horas você trabalha no mês?--> "))
 salario_bruto = horas_mes * valor_hora
 
 ir1500 = salario_bruto * 0.05
@@ -40,4 +40,4 @@ elif salario_bruto > 1500 and salario_bruto <= 2500:
 
 else:
     salario_liquido = float(salario_bruto) - float(irmaior) - float(inss)
-    print("IR: ", iralto, "\nSalario Liquido: ", salario_liquido)
+    print("IR: ", irmaior, "\nSalario Liquido: ", salario_liquido)
